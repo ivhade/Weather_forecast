@@ -1,0 +1,15 @@
+ENVIRONMENT VARIABLES ARE BASICALLY FOR SECURITY. FOR EXAMPLE IF WE WERE TO RUN OUR WEATHER .PY ON THE CLOUD OR TWILLIO
+ , WE WOULDNT WANT TO RUN IT WITH ALL OUR KEYS AND ALL. APPARENTLY THAT WOULDNT BE SAFE.
+
+ go to terminal at the bottom. type: env and enter
+
+
+ in order to safe the key:
+ go to terminal, type: export [name]="key"
+ press enter
+ then env
+
+ go back to file.py
+ copied_key_to_export = os.environ.get("[name]")
+
+#LESSON 317 (UNDERSTANIDNG ENVIRONMENTAL VARIABLES)
