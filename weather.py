@@ -3,11 +3,10 @@ import os
 from twilio.rest import Client
 import requests
 
-account_sid = "AC4d0f9055c60156aa6ba46220c9e063c7"
-auth_token = "de3400cc07dc751cc8f2fe37c908e1e6"
-Api_key2 = os.environ.get("api_key")
-#"c90c660f904f07fd7b7f71b6ce617dbf"
-Api_key = "e6bea81db52b67f0aca59d78954b40b9"
+account_sid = YOUR KEY1
+auth_token = YOUR KEY2
+Api_key2 = YOUR KEY3
+Api_key = YOUR KEY4
 
 #response = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q=Essen,DE&appid={Api_key}")
 response = requests.get(f"https://api.openweathermap.org/data/2.8/onecall?lat=51.759050&lon=19.458600&appid={Api_key2}")
